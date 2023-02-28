@@ -1,0 +1,6 @@
+.addContact {
+  width: 80%;
+}
+.addContact > form {
+  width: 90%;
+}

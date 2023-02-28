@@ -1,0 +1,54 @@
+.singleContact-main {
+  position: relative;
+}
+
+.singleContact {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  height: 5rem;
+  font-size: 1.5rem;
+  align-items: center;
+  padding: 0 2rem;
+  border-radius: 5px;
+}
+
+.singleContact > p {
+  margin: 0;
+}
+.edit-delete-button {
+  color: #2285d1;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  scale: 1.5;
+}
+
+.edit {
+  top: 0;
+}
+.delete {
+  bottom: 0;
+  color: #db2828;
+}
+
+.editCloseModal {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.editCloseModal::before {
+  display: block;
+  scale: 1.3;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+.editCloseModal:hover {
+  cursor: pointer;
+}
+.edit-form {
+  font-size: larger !important;
+}
